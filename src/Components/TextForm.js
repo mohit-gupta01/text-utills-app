@@ -41,6 +41,7 @@ export default function TextForm(props){
       <button className="btn btn-primary mx-1" onClick={handleClearClick}>Clear Text</button>
       <button className="btn btn-primary mx-1" onClick={handleCopy}>Copy Text</button>
       <button className="btn btn-primary mx-1" onClick={handleExtraSpaces}>Remove Extra Spaces</button>
+      
 
     </div>
     <div className="container my-3" style={{color: props.mode ==='dark'?'white':'black'}}>
